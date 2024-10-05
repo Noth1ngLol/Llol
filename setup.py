@@ -1,4 +1,5 @@
 from setuptools import setup, find_packages
+import setuptools.command.build_py  # Ensure setuptools is correctly imported
 import subprocess
 import os
 
@@ -44,6 +45,6 @@ setup(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
-    ],
+    },
     python_requires=">=3.6",
 )
