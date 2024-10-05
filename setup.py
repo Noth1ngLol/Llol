@@ -41,7 +41,7 @@ setup(
     author="Your Name",
     url="https://github.com/Noth1ngLol/Llol.git",
     author_email="your.email@example.com",
-    classifiers=[
+    classifiers={
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
